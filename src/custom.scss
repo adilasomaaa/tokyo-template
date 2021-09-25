@@ -1,0 +1,24 @@
+// Define variable defaults
+$primary: #946FFA;
+$secondary: #eee;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@1,700&display=swap');
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import 'assets/css/main_layout.scss';
+@import 'assets/css/card.scss';
+@import 'assets/css/avatar.scss';
+@import 'assets/css/breadcrumb.scss';
+@import 'assets/css/pagination.scss';
+@import 'assets/css/alert.scss';
+@import 'assets/css/modal.scss';
+@import 'assets/css/table.scss';
+@import 'assets/css/button.scss';
+@import 'assets/css/badge.scss';
+@import 'assets/css/input.scss';
+@import 'assets/css/typography.scss';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');

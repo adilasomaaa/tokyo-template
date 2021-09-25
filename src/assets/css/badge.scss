@@ -1,0 +1,69 @@
+.btn .badge {
+    margin-left: 1rem;
+    padding: 5px;
+    font-size: 0.6rem;
+}
+
+.badge {
+    font-size: 66%;
+    font-weight: 600;
+    line-height: 1;
+    display: inline-block;
+    padding: .35rem .375rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    border-radius: .375rem;
+}
+
+.badge-circle {
+    border-radius:15px;
+}
+
+.badge-primary {
+    background: #eee;
+    color:#946FFA;
+}
+
+.badge-warning {
+    background: #fff0b0;
+    color: #c49f09;
+}
+
+.badge-success {
+    background: #a0ffc9;
+    color: #139d4e;
+}
+
+.badge-info {
+    background: #c2f7ff;
+    color: #099ab1;
+}
+
+.badge-danger {
+    background: #ffc2bc;
+    color: #af281a;
+}
+
+.badge-dot {
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    font-weight: 400;
+    font-size: .875rem;
+    text-transform: none;
+}
+
+.badge-dot i {
+    display: inline-block;
+    vertical-align: middle;
+    width: .375rem;
+    height: .375rem;
+    border-radius: 50%;
+    margin-right: .375rem;
+}
+
+.badge-pill {
+    border-radius: 10rem!important;
+}
